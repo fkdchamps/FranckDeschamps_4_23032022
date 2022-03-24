@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+p{
+    max-width: 75%;
+    margin:auto;
+}
+
+h2{
+    max-width: 80%;
+    margin: auto;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -363,8 +372,19 @@ a:hover {
 }
 
 .citation{
-    font-size: 20px;
+    font-family: "sans-serif";
+    font-size: 18px;
+    font-weight:200;    
 }
+
+.citation cite{
+    font-family: "Helvetica", "sans-serif";
+    
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -1042,5 +1062,15 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .row{
+        margin-top: 0;
+        margin-bottom: 14px;
+        padding: 20px;
+    }
+    .col-sm-6 a img{
+        margin: auto;
+        margin-top: 35px;
+            
     }
 }
