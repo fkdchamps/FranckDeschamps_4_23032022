@@ -545,7 +545,8 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -851,7 +852,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1076,7 +1077,7 @@ h4 {
     .col-sm-6 a img{
         margin: auto;
         margin-top: 35px;
-            
+        max-width: 300px;  
     }
     .row-no-gutters .text-center a{
         width: 50%;
